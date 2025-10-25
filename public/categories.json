@@ -1,0 +1,33 @@
+[
+  { "id": 1,
+   "name": "Lego Classic Bricks"
+ },
+
+  { "id": 2,
+   "name": "Hot Wheels Super Track Set"
+ },
+
+  { "id": 3,
+   "name": "Barbie Dream House"
+ },
+
+  { "id": 4,
+   "name": "Nerf Elite Blaster" 
+},
+
+  { "id": 5,
+   "name": "Play-Doh Mega Fun Set" 
+},
+
+  { "id": 6,
+   "name": "RC Monster Truck" 
+},
+
+  { "id": 7,
+   "name": "Puzzle World Map" 
+},
+
+  { "id": 8,
+   "name": "Stuffed Teddy Bear" 
+}
+]
