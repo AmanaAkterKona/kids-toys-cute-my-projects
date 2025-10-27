@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import { Outlet } from 'react-router';
 import Footer from '../components/Footer';
+import About from '../components/About';
+import Details from './pages/Details';
 
 const AuthLayouts = () => {
     return (
@@ -11,6 +13,8 @@ const AuthLayouts = () => {
           </header>
           <main className='w-11/12 mx-auto py-5'>
           <Outlet></Outlet>
+          <About></About>
+         
 
           </main>
           <section><Footer></Footer></section>

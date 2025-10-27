@@ -14,7 +14,7 @@ const CategoryToys = () => {
        }
        else{
           const filteredToys=data.filter(toys => toys.toyId == id);
-        console.log(filteredToys);
+        //console.log(filteredToys);
 
         setCategoryToys(filteredToys);
        }

@@ -1,13 +1,13 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-import logo from "../assets/logo navbar.avif"; // নিজের logo image বসাও
+import logo from "../assets/logo navbar.avif"; 
 
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-[#D4EEF8] via-[#8CCDEB] to-[#5AB4E0] mt-16  text-gray-800">
       <div className="w-11/12 mx-auto py-10 grid grid-cols-1 md:grid-cols-4 gap-10">
 
-        {/* Brand Section */}
+       
         <div className="text-center md:text-left">
           <img src={logo} alt="ToyTopia Logo" className="w-24 mx-auto md:mx-0 rounded-xl" />
           <h2 className="text-3xl font-bold text-pink-700 mt-4">ToyTopia</h2>
@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
+       
         <div>
           <h3 className="text-2xl font-semibold text-cyan-700 mb-3">Quick Links</h3>
           <ul className="space-y-2">
@@ -27,7 +27,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Customer Support */}
+       
         <div>
           <h3 className="text-2xl font-semibold text-cyan-700 mb-3">Customer Support</h3>
           <ul className="space-y-2">
@@ -38,7 +38,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social Media */}
+      
         <div className="text-center md:text-left">
           <h3 className="text-2xl font-semibold text-cyan-700 mb-3">Follow Us</h3>
           <div className="flex justify-center md:justify-start gap-5 text-3xl text-pink-700">
@@ -51,8 +51,8 @@ const Footer = () => {
 
       </div>
 
-      {/* Bottom Section */}
-      <div className="bg-blue-200 py-4 text-center text-gray-700 text-sm rounded-b-2xl">
+     
+      <div className="bg-blue-200 py-4 text-center text-gray-700 text-sm ">
         © {new Date().getFullYear()} <span className="font-semibold text-pink-700">ToyTopia</span> | All Rights Reserved 🎈
       </div>
     </footer>
